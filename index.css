@@ -1,0 +1,61 @@
+html {
+  font-size: 1px;
+}
+
+.button_page {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: block;
+  transition-duration: 0.4s;
+
+  height: 40rem;
+  width: 100rem;
+  margin: auto;
+  margin-right: -2rem;
+  position: relative;
+  float: left;
+
+  background-color: aliceblue;
+  border: 2rem solid black;
+  border-top-right-radius: 20rem;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 16rem;
+  color: black;
+  font-weight: bold;
+}
+
+.button_page:hover {
+  background-color: black;
+
+  color: aliceblue;
+}
+
+.button_now_page {
+  z-index: 10;
+
+  border-bottom: 2rem solid aliceblue;
+}
+
+.page {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+
+  width: 1000rem;
+  height: 200rem;
+  margin: auto;
+  margin-top: -2rem;
+  position: relative;
+
+  background-color: aliceblue;
+  border: 2rem solid black;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 16rem;
+  color: black;
+  font-weight: bold;
+}
