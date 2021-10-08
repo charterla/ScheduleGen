@@ -45,7 +45,6 @@ html {
   transition-duration: 0.4s;
 
   width: 1000rem;
-  height: 200rem;
   margin: auto;
   margin-top: -2rem;
   position: relative;
@@ -53,6 +52,97 @@ html {
   background-color: aliceblue;
   border: 2rem solid black;
 
+  text-align: center;
+  text-decoration: none;
+  font-size: 16rem;
+  color: black;
+  font-weight: bold;
+}
+
+.subPage {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition-duration: 0.4s;
+
+  width: 100%;
+  margin: auto;
+
+  text-align: center;
+}
+
+.subPage > table {
+  width: 80%;
+  margin: auto;
+  margin-top: 100rem;
+  margin-bottom: 100rem;
+  position: relative;
+
+  border: 4rem solid black;
+  border-collapse: collapse;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 32rem;
+  color: black;
+  font-weight: bold;
+}
+
+.subPage > table > tr {
+  border-collapse: collapse;
+}
+
+.context_time {
+  height: 1rem;
+
+  border-top: none;
+  border-bottom: none;
+}
+
+.subPage > table > tr > th {
+  border-collapse: collapse;
+}
+
+.subPage > table > tr > td {
+  border-collapse: collapse;
+}
+
+.block_time {
+  width: 16%;
+  margin: auto;
+  position: relative;
+
+  border: 2rem solid black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16rem;
+  color: black;
+  font-weight: bold;
+}
+
+.block_class {
+  border-top: none;
+  border-bottom: none;
+}
+
+.block_time_top {
+  width: 16%;
+  margin: auto;
+  position: relative;
+
+  border: 2rem solid black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16rem;
+  color: black;
+  font-weight: bold;
+}
+
+.block_class_top {
+  width: 12%;
+  margin: auto;
+  position: relative;
+
+  border: 2rem solid black;
   text-align: center;
   text-decoration: none;
   font-size: 16rem;
